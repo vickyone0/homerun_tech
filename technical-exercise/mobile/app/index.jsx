@@ -25,7 +25,7 @@ export default function Index() {
   }, [navigation]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/stores")
+    fetch("https://homerun-tech.onrender.com/api/stores")
       .then((response) => response.json())
       .then((json) => {
         setData(json);
