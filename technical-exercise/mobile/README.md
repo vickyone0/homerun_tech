@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Homerun Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is the mobile application for the Homerun technical exercise. It is built using React Native (Expo) and provides a user interface for browsing Homerun Mart store locations and details.
 
-## Get started
+## Features
+- List of Homerun Mart stores
+- Store details view
+- Modern UI with Expo
 
-1. Install dependencies
+## Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
+## Setup Instructions
+
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Start the development server:**
    ```bash
    npx expo start
    ```
+   or
+   ```bash
+   npm start
+   ```
 
-In the output, you'll find options to open the app in a
+3. **Run on your device:**
+   - Use the Expo Go app (iOS/Android) to scan the QR code in your terminal or browser.
+   - Or, use an emulator/simulator from the Expo Dev Tools.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project Structure
+- `app/` - Main application code (screens, navigation)
+- `assets/` - Images and fonts
+- `app.json` - Expo configuration
+- `package.json` - Project dependencies
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Useful Commands
+- `npm start` - Start Expo development server
+- `npm run android` - Run on Android emulator/device
+- `npm run ios` - Run on iOS simulator (macOS only)
 
-## Get a fresh project
+## Learn More
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to contribute or modify as needed for your technical exercise!
